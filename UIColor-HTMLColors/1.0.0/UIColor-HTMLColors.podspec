@@ -10,6 +10,8 @@ Pod::Spec.new do |spec|
   spec.exclude_files = 'HTMLColorsDemo'
   spec.frameworks   = 'Foundation', 'CoreData'
   spec.requires_arc = true
+  spec.header_dir   = 'UIColorHTMLColors'
+  spec.header_mappings_dir = 'UIColorHTMLColors'
 
   spec.ios.deployment_target = '6.0'
   spec.watchos.deployment_target = '2.0'
